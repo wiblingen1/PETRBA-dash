@@ -92,10 +92,10 @@ if ( ($_SERVER["PHP_SELF"] == "/admin/index.php") && ($configPistarRelease['Pi-S
  <a href="/" style="color: #ffffff;"><?php echo $lang['dashboard'];?></a> |
  <a href="/admin/" style="color: #ffffff;"><?php echo $lang['admin'];?></a> |
  <a  href="http://freedmr.digital/CCS7-Registrierung.html" target="_blnk" title="DMR-ID Registrierung bei FreeDMR Digital" style="color: #FF66CC;">DMR-ID</a> |
- <a href="/live/" title="Full Display" style="color: #ffff00;">Live Caller</a> |
- <a  href="/admin/calibration.php" title="max. 1% BER" style="color: #00ff00;">Calibration</a> |
+ <a href="/live/" title="Full Display" style="color: #ffff00;">Aktualní hovor</a> |
+ <a  href="/admin/calibration.php" title="max. 1% BER" style="color: #00ff00;">Kalibrace</a> |
  <a  href="/admin/expert/jitter_test.php" title="...in Vorbereitung" style="color: #00ffff;">Jitter Test</a> |
- <a  href="https://daprs.de" target="_blank" title="APRS für den unlizenzierten Funk - Host: daprs.de - Port: 14580" style="color: #FFB74D;">DAPRS Map</a> |
+ <a  href="http://192.248.189.90:8093/map/" target="_blank" title="ODS D-APRS DASHBOARD" style="color: #FFB74D;">Mapa</a> |
 <?php if ($_SERVER["PHP_SELF"] == "/admin/index.php") {
   echo ' <a href="/admin/live_modem_log.php" style="color: #ffffff;">'.$lang['live_logs'].'</a> |'."\n";
   echo ' <a href="/admin/power.php" style="color: #ffffff;">'.$lang['power'].'</a> |'."\n";
